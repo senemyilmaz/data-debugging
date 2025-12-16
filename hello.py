@@ -4,7 +4,7 @@ import sys
 
 def full_name(first_name, last_name):
     """returns the full name"""
-    name = f"{first_name.capitalize().strip()} {last_name.capitalize().strip()}"
+    name = f"{first_name.capitalize().strip()}{last_name.capitalize().strip()}"
 
     return name
 
